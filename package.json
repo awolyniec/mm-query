@@ -1,0 +1,18 @@
+{
+  "name": "mm-query",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "@awolyniec/mm-util": "^0.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  },
+  "resolutions": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,1 @@
+require('./data'); // to connect to db
