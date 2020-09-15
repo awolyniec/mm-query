@@ -6,7 +6,9 @@
   "dependencies": {
     "@awolyniec/mm-util": "^0.1.0",
     "async": "^3.2.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "extend": "^3.0.2",
     "mongoose": "^5.10.5"
   },
   "resolutions": {},
