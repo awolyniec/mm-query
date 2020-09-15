@@ -1,6 +1,5 @@
 const { Product } = require('../data');
 
-
 const main = (cb) => {
   const productData = {
     "name": "It's All Tendies",
