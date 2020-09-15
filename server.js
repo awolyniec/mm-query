@@ -4,7 +4,7 @@ const express = require('express');
 const { config } = require('@awolyniec/mm-util');
 
 const { corsMiddleware, jsonBodyParserMiddleware } = require('./middlewares');
-// const router = require('./routes');
+const routes = require('./routes');
 require('./data'); // to connect to db 
 
 const serverConfig = config.mmQuery;
@@ -17,8 +17,8 @@ app.use([
   jsonBodyParserMiddleware
 ]);
 
-// routes
-// app.use(router);
+// apply routers
+app.use(routes);
 
 app.listen(port, () => {
   console.log(`mm-query listening on ${port}`);
