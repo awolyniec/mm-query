@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "@awolyniec/mm-util": "^0.2.0",
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "extend": "^3.0.2",
